@@ -8,9 +8,11 @@ function compareTrue(elementoA, elementoB) {
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
-}
+function calcArea(base, height) {
+  if (base > 0 && height > 0) {
+    return base*height/2
+  }
+ }
 
 // Desafio 3
 function splitSentence() {
