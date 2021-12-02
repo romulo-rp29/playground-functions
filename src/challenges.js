@@ -1,6 +1,6 @@
 // Desafio 1
-function compareTrue(elementoA, elementoB) {
-  if(elementoA === true && elementoB === true) {
+function compareTrue(elementA, elementB) {
+  if(elementA === true && elementB === true) {
     return true
       } else {
         return false
@@ -21,20 +21,20 @@ function splitSentence(string) {       //  Nesse caso, o comando split transform
 }                                      //  em que cada letra e espaço da string original seria um novo elemento dessa array. Aprendi em: https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254
 
 // Desafio 4
-function concatName(arrayDeStrings) {
-
-return arrayDeStrings[arrayDeStrings.length - 1] + ", " + arrayDeStrings[0]
-
+function concatName(arrayOfStrings) {
+  return arrayOfStrings[arrayOfStrings.length - 1] + ", " + arrayOfStrings[0]
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let scoreWins = 3
+  let scoreTies = 1
+  return scoreWins * wins + scoreTies * ties
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arrayOfNumbers) {
+
 }
 
 // Desafio 7
