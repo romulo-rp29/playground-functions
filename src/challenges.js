@@ -15,13 +15,15 @@ function calcArea(base, height) {
  }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
-}
+function splitSentence(string) {       //  Nesse caso, o comando split transforma todos os espaços vazios em elementos separadores da string mãe,
+  let newArray = string.split(" ")     //  ou seja, separa tudo o que vem antes e depois colocando-os em novas strings dentro da nova array.
+    return newArray                    //  Se no local de (" ") colocássemos ("") - no caso sem espaço entre as aspas - resultaria em uma array
+}                                      //  em que cada letra e espaço da string original seria um novo elemento dessa array. Aprendi em: https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(oldString) {
+
+
 }
 
 // Desafio 5
