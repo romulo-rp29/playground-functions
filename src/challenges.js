@@ -21,8 +21,9 @@ function splitSentence(string) {       //  Nesse caso, o comando split transform
 }                                      //  em que cada letra e espaço da string original seria um novo elemento dessa array. Aprendi em: https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254
 
 // Desafio 4
-function concatName(oldString) {
+function concatName(arrayDeStrings) {
 
+return arrayDeStrings[arrayDeStrings.length - 1] + ", " + arrayDeStrings[0]
 
 }
 
