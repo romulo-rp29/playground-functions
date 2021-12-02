@@ -1,9 +1,9 @@
 // Desafio 1
-function compareTrue() {
-  if(elementoA && elementoB === true) {
-console.log(true)
-  } else {
-    console.log(false)
+function compareTrue(elementoA, elementoB) {
+  if(elementoA === true && elementoB === true) {
+    return true
+      } else {
+        return false
   }
 }
 
