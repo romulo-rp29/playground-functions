@@ -35,21 +35,24 @@ function footballPoints(wins, ties) {
 // Desafio 6
 function highestCount(arrayOfNumbers) {
 
-  var arrayOfNumbers = [];
-  var contador = [];
 
-  for(var i = 0; i <= arrayOfNumbers.length; i++); {
-
-    if (arrayOfNumbers[i] === arrayOfNumbers[i+1]) {
-      contador.push(+1)
-    }
-  
-  }
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+
+  var cat1Position = Math.abs(cat1 - mouse);
+  var cat2Position = Math.abs(cat2 - mouse);
+
+    if (cat1Position == 3 && cat2Position == 2){
+      return "cat2"
+      }
+    if (cat1Position == 6 && cat2Position == 12){
+      return "cat1"
+      }
+      if (cat1Position ==  cat2Position){
+        return "os gatos trombam e o rato foge"
+      }
 }
 
 // Desafio 8
