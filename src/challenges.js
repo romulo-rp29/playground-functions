@@ -33,9 +33,15 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-function highestCount() {
-
-
+function highestCount(array) {
+  let higher = Math.max.apply(undefined, array); // Math.max() é utilizado para achar o maior número em uma lista;
+  let counter = 0;                               // apply() é utilizado para apliacar o método max() a uma array;
+  for (let i = 0; i < array.length; i++) {       // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/max ;
+    if(array[i] === higher){                     // https://www.w3schools.com/js/js_function_apply.asp .
+      counter++
+    }
+  }
+return counter
 }
 
 // Desafio 7
